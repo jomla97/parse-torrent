@@ -2,7 +2,7 @@
 
 const bencode = require('bencode')
 const blobToBuffer = require('blob-to-buffer')
-const fs = require('fs') // browser exclude
+const fs = require('react-native-fs') // browser exclude
 const get = require('simple-get')
 const magnet = require('magnet-uri')
 const path = require('path')
